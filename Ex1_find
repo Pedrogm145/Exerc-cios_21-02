@@ -1,0 +1,6 @@
+const filmes = ["Avatar", "Batman", "Vingadores", "Matrix", "Barbie"];
+
+let encontra = filmes.find(filme => {
+    return filme.startsWith ("B")
+})
+console.log(encontra);
